@@ -23,3 +23,7 @@
 
 # 제작 주요 과정
 1.	GitHub에 ‘myportfolioBlog’라는 이름의 라이브러리 생성, Home/index.html 생성
+
+# 메인 페이지(Home)
+# 글 목록 페이지(List):
+*	개별 글 페이지(Page):
