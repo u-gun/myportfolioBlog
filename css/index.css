@@ -21,7 +21,7 @@ body {
     font-size: 7.2vw;
 }
 
-.manu ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,18 +32,19 @@ body {
     top: 0px;
 }
 
-.manu li {
+.menu li {
     display: inline-block;
 }
 
-.manu a {
+.menu a {
     color: #f1f1f1;
     text-decoration: none;
     display: inline-block;
 }
 
 
-li a, .dropbtn {
+li a,
+.dropbtn {
     display: inline-block;
     padding: 14px 16px;
     color: white;
@@ -51,7 +52,8 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
     background-color: #600000;
 }
 
