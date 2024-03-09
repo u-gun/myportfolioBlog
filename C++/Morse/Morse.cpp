@@ -10,7 +10,7 @@ class Morse {
 	std::map<std::queue<bool>, char[2]> hangul;
  string slash, question, comma, period, plus, equal;
 
-	/**
+  /**
   * Morse cord를 word 단위로 저장
  	* dit=1 dash=111 signel interval=0 letter interval=000
   */
@@ -24,7 +24,9 @@ public :
 }
 
 Morse :: Morse {
-  /*string alphamorse[26] = { ".-", "-...", "-.-.", "-..", ".",
+
+  /*
+string alphamorse[26] = { ".-", "-...", "-.-.", "-..", ".",
 							 "..-.", "--.", "....", "..", ".---",
 							 "-.-", ".-..", "--", "-.", "---",
 							 ".--.", "--.-", ".-.", "...", "-",
@@ -37,11 +39,6 @@ Morse :: Morse {
 							 ".--.", "--.-", ".-.", "...", "-",
 							 "..-", "...-", ".--", "-..-", "-.--", "--.."};
 
-	for(int i=0; i<26; i++)
-		alphabet[i] = alphamorse[i];
-	for(int i=0; i<10; i++)
-		digit[i] = digitmorse[i];
-  
 	slash = "-..-.";	question = "..--..";	comma = "--..--";
 	period = ".-.-.-";	plus = ".-.-.";		equal = "-...-";
 */
