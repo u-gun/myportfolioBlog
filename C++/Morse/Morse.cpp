@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
 #include <window.h>
-#include <vector>
+#include <map>
+#include <queue>
 
 class Morse {
-  string alphabet[26];
-	string digit[10];
-  string hangul[26];
+	std::map<std::queue<bool>, int> alphabet;
+        std::map<std::queue<bool>, int> digit;
+	std::map<std::queue<bool>, char[2]> hangul;
   string slash, question, comma, period, plus, equal;
   
 public :
